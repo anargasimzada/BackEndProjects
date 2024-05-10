@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+@model UpdateSliderVM
+<form method="post">
+    <div class="mb-3">
+       <label>Title</label>
+        <input type="text" class="form-control" name="Title">
+    
+    </div>
+    <div class="mb-3">
+        <label>Subtitle</label>
+        <input type="text" class="form-control" name="Subtitle">
+    </div>
+    <div class="mb-3">
+        <label>ImageUrl</label>
+        <input type="text" class="form-control" name="ImageUrl">
+    </div>
+    <div class="mb-3">
+        <label>Discount</label>
+        <input type="number" class="form-control" name="Discount">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
